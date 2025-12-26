@@ -1,0 +1,114 @@
+{
+  "marketplace": {
+    "name": "Sino Claude Code Skills Marketplace",
+    "version": "1.0.0",
+    "description": "中文Claude Code技能市场 - 提供高质量的专业技能包",
+    "maintainer": "Claude Code Community",
+    "repository": "https://github.com/your-org/sino-claudecode-marketplace",
+    "last_updated": "2025-12-26"
+  },
+  "categories": [
+    {
+      "id": "code-quality",
+      "name": "代码质量",
+      "description": "代码审查、格式化、静态分析等工具",
+      "icon": "🔍"
+    },
+    {
+      "id": "development",
+      "name": "开发工具",
+      "description": "开发辅助工具和实用技能",
+      "icon": "🛠️"
+    },
+    {
+      "id": "documentation",
+      "name": "文档编写",
+      "description": "文档生成、技术写作辅助",
+      "icon": "📝"
+    },
+    {
+      "id": "testing",
+      "name": "测试相关",
+      "description": "测试自动化、质量保证",
+      "icon": "🧪"
+    },
+    {
+      "id": "productivity",
+      "name": "效率提升",
+      "description": "提高工作效率的技能包",
+      "icon": "⚡"
+    }
+  ],
+  "skills": [
+    {
+      "id": "code-review-expert",
+      "name": "专业代码审查专家",
+      "version": "1.1.0",
+      "category": "code-quality",
+      "description": "全面的代码审查技能，涵盖前端、后端、Python、Java、Node.js等多个领域，从代码质量、安全性、性能、架构设计等多维度进行专业审查。",
+      "author": "Claude Code Expert Team",
+      "repository": "https://github.com/your-org/code-review-expert",
+      "tags": [
+        "code-review",
+        "code-quality",
+        "security",
+        "best-practices",
+        "python",
+        "java",
+        "javascript",
+        "nodejs",
+        "frontend",
+        "backend"
+      ],
+      "features": [
+        "多领域专家审查系统(安全/前端/后端/Python/Java/Node.js/架构/业务逻辑)",
+        "Git信息自动提取",
+        "标准化审查报告生成",
+        "中文报告命名",
+        "自动保存到docs目录"
+      ],
+      "license": "MIT",
+      "installed": false,
+      "path": "skills/code-review-expert",
+      "documentation": "skills/code-review-expert/README.md",
+      "changelog": "skills/code-review-expert/CHANGELOG.md",
+      "downloads": 0,
+      "rating": 5.0,
+      "reviews": 0
+    },
+    {
+      "id": "hello-world",
+      "name": "Hello World示例",
+      "version": "1.0.0",
+      "category": "development",
+      "description": "简单的Hello World技能包示例，展示如何创建基本的Claude Code技能。用于学习和参考。",
+      "author": "Sino Claude Code Community",
+      "repository": "https://github.com/your-org/hello-world",
+      "tags": [
+        "example",
+        "template",
+        "learning",
+        "beginner"
+      ],
+      "features": [
+        "简单的问候响应",
+        "技能结构示例",
+        "开发模板参考"
+      ],
+      "license": "MIT",
+      "installed": false,
+      "path": "skills/hello-world",
+      "documentation": "skills/hello-world/README.md",
+      "changelog": "skills/hello-world/CHANGELOG.md",
+      "downloads": 0,
+      "rating": 5.0,
+      "reviews": 0
+    }
+  ],
+  "statistics": {
+    "total_skills": 2,
+    "total_categories": 5,
+    "total_downloads": 0,
+    "last_update": "2025-12-26T23:59:00Z"
+  }
+}
