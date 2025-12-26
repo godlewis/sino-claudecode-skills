@@ -20,8 +20,13 @@ wheels/
 .installed.cfg
 *.egg
 MANIFEST
+
+# Allow markdown files in specific directories
 *.md
 !README.md
+!QUICKSTART.md
+!docs/*.md
+!skills/**/*.md
 
 # Virtual Environment
 venv/
