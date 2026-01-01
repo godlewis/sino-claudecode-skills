@@ -35,14 +35,14 @@
 
 ```bash
 # 克隆市场仓库
-git clone https://github.com/your-org/sino-claudecode-marketplace.git
-cd sino-claudecode-marketplace
+git clone https://github.com/godlewis/sino-claudecode-skills.git
+cd sino-claudecode-skills
 
 # 查看可用技能包
 python scripts/marketplace.py list
 
-# 安装技能包
-python scripts/marketplace.py install code-review-expert
+# 安装技能包（示例：安装 Docker 镜像加速器）
+python scripts/marketplace.py install docker-image-accelerator
 ```
 
 #### 方法2: 手动安装
@@ -70,6 +70,30 @@ cp -r skills/code-review-expert ~/.claude/skills/
 ```
 
 ## 📦 可用技能包
+
+### ⚡ 效率提升
+
+#### [Docker Image Accelerator](skills/docker-image-accelerator/) 🆕
+
+**版本**: 1.0.0 | **下载量**: 0+ | **评分**: ⭐⭐⭐⭐⭐
+
+使用 DaoCloud 国内镜像源加速 Docker 镜像下载：
+
+- 🚀 **高速下载** - 支持 docker.io, gcr.io, ghcr.io, k8s.gcr.io, quay.io 等 5000+ 镜像
+- ⚡ **极速体验** - 下载速度提升 10-100 倍
+- 🔄 **自动化处理** - 自动重命名和清理中间镜像标签
+- 📦 **批量拉取** - 支持一次拉取多个镜像
+- 🎯 **智能识别** - 自动识别并标准化各种镜像格式
+
+**使用场景**:
+- 拉取官方 Docker Hub 镜像
+- 拉取 Kubernetes 镜像（gcr.io, k8s.gcr.io）
+- 镜像下载缓慢或超时
+- Kubernetes 集群初始化和部署
+
+[查看详情](skills/docker-image-accelerator/README.md) | [更新日志](skills/docker-image-accelerator/CHANGELOG.md)
+
+---
 
 ### 🔍 代码质量
 
@@ -124,7 +148,7 @@ cp -r skills/code-review-expert ~/.claude/skills/
 
 | 指标 | 数值 |
 |------|------|
-| 📦 技能包总数 | 1 |
+| 📦 技能包总数 | 2 |
 | 📂 分类数量 | 5 |
 | 📥 总下载量 | 0 |
 | 📅 最后更新 | 2025-12-26 |
@@ -137,7 +161,7 @@ cp -r skills/code-review-expert ~/.claude/skills/
 
 1. **Fork项目**
    ```bash
-   git clone https://github.com/your-username/sino-claudecode-marketplace.git
+   git clone https://github.com/godlewis/sino-claudecode-skills.git
    ```
 
 2. **创建技能包**
@@ -203,9 +227,9 @@ python scripts/marketplace.py update-market
 
 ## 🤝 社区
 
-- 💬 **讨论区**: [GitHub Discussions](https://github.com/your-org/sino-claudecode-marketplace/discussions)
-- 🐛 **问题反馈**: [GitHub Issues](https://github.com/your-org/sino-claudecode-marketplace/issues)
-- 💡 **功能建议**: [Feature Requests](https://github.com/your-org/sino-claudecode-marketplace/issues)
+- 💬 **讨论区**: [GitHub Discussions](https://github.com/godlewis/sino-claudecode-skills/discussions)
+- 🐛 **问题反馈**: [GitHub Issues](https://github.com/godlewis/sino-claudecode-skills/issues)
+- 💡 **功能建议**: [Feature Requests](https://github.com/godlewis/sino-claudecode-skills/issues)
 - 📧 **联系我们**: support@example.com
 
 ## 📄 许可证

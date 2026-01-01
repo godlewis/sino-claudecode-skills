@@ -49,4 +49,4 @@ Claude回应:
 ## 扩展阅读
 
 - [Claude Code Skills文档](https://docs.claudecode.com/skills)
-- [技能开发指南](https://github.com/your-org/sino-claudecode-marketplace/docs/SKILL_DEVELOPMENT.md)
+- [技能开发指南](https://github.com/godlewis/sino-claudecode-skills/blob/main/docs/SKILL_DEVELOPMENT.md)

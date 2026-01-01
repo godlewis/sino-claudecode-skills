@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "description": "中文Claude Code技能市场 - 提供高质量的专业技能包",
     "maintainer": "Claude Code Community",
-    "repository": "https://github.com/your-org/sino-claudecode-marketplace",
+    "repository": "https://github.com/godlewis/sino-claudecode-skills",
     "last_updated": "2025-12-26"
   },
   "categories": [
@@ -47,7 +47,7 @@
       "category": "code-quality",
       "description": "全面的代码审查技能，涵盖前端、后端、Python、Java、Node.js等多个领域，从代码质量、安全性、性能、架构设计等多维度进行专业审查。",
       "author": "Claude Code Expert Team",
-      "repository": "https://github.com/your-org/code-review-expert",
+      "repository": "https://github.com/godlewis/sino-claudecode-skills/tree/main/skills/code-review-expert",
       "tags": [
         "code-review",
         "code-quality",
@@ -83,7 +83,7 @@
       "category": "development",
       "description": "简单的Hello World技能包示例，展示如何创建基本的Claude Code技能。用于学习和参考。",
       "author": "Sino Claude Code Community",
-      "repository": "https://github.com/your-org/hello-world",
+      "repository": "https://github.com/godlewis/sino-claudecode-skills/tree/main/skills/hello-world",
       "tags": [
         "example",
         "template",
@@ -103,10 +103,46 @@
       "downloads": 0,
       "rating": 5.0,
       "reviews": 0
+    },
+    {
+      "id": "docker-image-accelerator",
+      "name": "Docker 镜像加速器",
+      "version": "1.0.0",
+      "category": "productivity",
+      "description": "使用 DaoCloud 国内镜像源加速 Docker 镜像下载，支持 docker.io, gcr.io, ghcr.io, k8s.gcr.io, quay.io 等 5000+ 镜像。自动完成镜像拉取、重命名、清理中间标签等操作，下载速度提升 10-100 倍。",
+      "author": "Sino Claude Code Community",
+      "repository": "https://github.com/godlewis/sino-claudecode-skills/tree/main/skills/docker-image-accelerator",
+      "tags": [
+        "docker",
+        "container",
+        "accelerator",
+        "mirror",
+        "kubernetes",
+        "devops",
+        "performance",
+        "network"
+      ],
+      "features": [
+        "支持 5000+ Docker 镜像加速",
+        "自动镜像名称标准化",
+        "自动镜像重命名和清理",
+        "10-100倍下载速度提升",
+        "批量镜像拉取支持",
+        "智能识别各种镜像格式",
+        "支持所有主流镜像源"
+      ],
+      "license": "MIT",
+      "installed": true,
+      "path": "skills/docker-image-accelerator",
+      "documentation": "skills/docker-image-accelerator/README.md",
+      "changelog": "skills/docker-image-accelerator/CHANGELOG.md",
+      "downloads": 1,
+      "rating": 5.0,
+      "reviews": 0
     }
   ],
   "statistics": {
-    "total_skills": 2,
+    "total_skills": 3,
     "total_categories": 5,
     "total_downloads": 0,
     "last_update": "2025-12-26T23:59:00Z"

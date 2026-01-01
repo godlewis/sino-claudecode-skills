@@ -28,6 +28,9 @@ MANIFEST
 !docs/*.md
 !skills/**/*.md
 
+# Exclude CLAUDE.md from git
+CLAUDE.md
+
 # Virtual Environment
 venv/
 ENV/
