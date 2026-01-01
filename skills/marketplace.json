@@ -77,34 +77,6 @@
       "reviews": 0
     },
     {
-      "id": "hello-world",
-      "name": "Hello World示例",
-      "version": "1.0.0",
-      "category": "development",
-      "description": "简单的Hello World技能包示例，展示如何创建基本的Claude Code技能。用于学习和参考。",
-      "author": "Sino Claude Code Community",
-      "repository": "https://github.com/godlewis/sino-claudecode-skills/tree/main/skills/hello-world",
-      "tags": [
-        "example",
-        "template",
-        "learning",
-        "beginner"
-      ],
-      "features": [
-        "简单的问候响应",
-        "技能结构示例",
-        "开发模板参考"
-      ],
-      "license": "MIT",
-      "installed": false,
-      "path": "skills/hello-world",
-      "documentation": "skills/hello-world/README.md",
-      "changelog": "skills/hello-world/CHANGELOG.md",
-      "downloads": 0,
-      "rating": 5.0,
-      "reviews": 0
-    },
-    {
       "id": "docker-image-accelerator",
       "name": "Docker 镜像加速器",
       "version": "1.0.0",
@@ -142,9 +114,9 @@
     }
   ],
   "statistics": {
-    "total_skills": 3,
+    "total_skills": 2,
     "total_categories": 5,
-    "total_downloads": 0,
+    "total_downloads": 1,
     "last_update": "2025-12-26T23:59:00Z"
   }
 }

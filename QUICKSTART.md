@@ -45,7 +45,7 @@ sino-claudecode-marketplace/
 ├── skills/                     # 技能包目录
 │   ├── marketplace.json       # 市场配置
 │   ├── code-review-expert/    # 代码审查专家
-│   └── hello-world/           # 示例技能
+│   └── docker-image-accelerator/ # Docker 镜像加速器
 ├── docs/                       # 文档目录
 └── examples/                   # 示例目录
 ```
@@ -116,7 +116,7 @@ A: 使用 `python scripts/marketplace.py install <skill-id>`
 A: `~/.claude/skills/`
 
 ### Q: 如何创建自己的技能包？
-A: 参考 hello-world 示例，复制并修改
+A: 参考项目中的技能包结构，或查看 docs/SKILL_DEVELOPMENT.md 开发规范
 
 ### Q: 安装后如何使用？
 A: 在Claude Code中直接对话即可
